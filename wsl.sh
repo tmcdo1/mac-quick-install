@@ -4,7 +4,7 @@ python3 -m pip install --upgrade pip
 sudo apt-get install python3-pip
 
 ## Python dependencies
-python3 -m pip install flask
+python3 -m pip install flask --user
 
 # VSCode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
