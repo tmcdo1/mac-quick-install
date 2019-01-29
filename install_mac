@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#install packages
+brew install python
+pip3 install flask
+
+brew install node
+
+brew cask install docker
+
+brew install git
+
+brew cask install visual-studio-code
