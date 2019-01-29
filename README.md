@@ -2,6 +2,12 @@
 Shell script to install useful developer packages
 
 ## Mac
+To install included tools, copy the following lines:
+```
+chmod +x install_mac
+./install_mac
+```
+
 Included installs:
 - Homebrew
 - Node
