@@ -23,9 +23,11 @@ Included installs:
 - Visual Studio Code
 
 ## WSL
+To install included tools, copy the following line:
+```
+sudo curl -fsSL https://raw.githubusercontent.com/tmcdo1/quick-install/master/wsl.sh | /bin/bash
+```
+
 Included installs:
 - Python 3
-  - Flask
-- Docker
 - Git
-- Visual Studio Code

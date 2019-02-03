@@ -1,21 +1,26 @@
+# This script may take some time to finish, so make sure you're not closing your computer anytime soon. 
 
-# Python 3.6 (Comes installed by default)
-python3 -m pip install --upgrade pip
-sudo apt-get install python3-pip
-
-## Python dependencies
-python3 -m pip install flask --user
-
-# VSCode
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install code
+# Updating Ubuntu's package information before we start.
+sudo apt update -y
+#    sudo:   runs a command as root which basically means you have "admin" privilages, stands for "superuser do"
+#     apt:   this is the Ubuntu package manager, stands for "advanced packaging tool" (just a friendlier apt-get)
+#  update:   this is an apt command that downloads the package lists from the Ubuntu repositories and "updates"
+#            them to get information on the newest versions of packages and their dependencies
+#      -y:   automatically answers "yes" to user prompts
 
 # Git
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install git
+sudo apt install git -y
+# install:   this is an apt command that installs the specified package, which in this case is git
+
+# Python3
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+
+# Upgrading everything to newer versions before we finish.
+sudo apt upgrade -y
+
+echo "-----------------------------------------------------"
+echo "You are all set for Aggie Coding Club 2019 Workshops!"
+
+# You should store your Github credentials next 
+# https://help.github.com/articles/setting-your-username-in-git/
