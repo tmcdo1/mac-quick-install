@@ -60,7 +60,7 @@ echo "eval '\$(rbenv init -)'" >> ~/.bash_profile
 echo
 echo Install Office Suite: https://software.tamu.edu
 echo Install Sophos Home: https://home.sophos.com/en-us.aspx
-echo Install OneDrive, Wunderlist, and StrongBox via the App Store
+echo Install OneDrive, Wunderlist, XCode, and StrongBox via the App Store
 echo
 echo iTerm Color Themes: https://iterm2colorschemes.com/
 
