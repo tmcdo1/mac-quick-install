@@ -13,6 +13,7 @@ brew install make
 brew install node
 brew install rbenv
 rbenv init
+brew install gcc
 
 brew cask install iterm2
 brew cask install macdown
@@ -24,8 +25,19 @@ brew cask install firefox-developer-edition
 brew cask install google-chrome
 brew cask install telegram
 brew cask install slack
+brew cask install spotify
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install postman
+brew cask install robo-3t
 
+# Double-check below
+brew cask install drawio 
+brew cask install zeplin
+brew cask install iina
 
 # Add gitconfig controls
-
-echo Install OneDrive and StrongBox via the App Store
+echo
+echo Install Office Suite: https://software.tamu.edu
+echo Install Sophos Home: https://home.sophos.com/en-us.aspx
+echo Install OneDrive, Wunderlist, and StrongBox via the App Store
