@@ -38,6 +38,8 @@ brew cask install drawio
 brew cask install zeplin
 brew cask install iina
 
+xcode-select --install
+
 # Add gitconfig controls
 echo
 echo Install Office Suite: https://software.tamu.edu
