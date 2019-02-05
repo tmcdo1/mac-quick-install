@@ -15,6 +15,8 @@ brew install rbenv
 rbenv init
 brew install gcc
 
+# Add golang install
+
 brew cask install iterm2
 brew cask install macdown
 brew cask install spectacle
