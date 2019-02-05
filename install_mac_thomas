@@ -14,6 +14,10 @@ brew install node
 brew install rbenv
 brew install gcc
 
+# Random programs
+brew install neofetch
+brew install youtube-dl
+
 # Add golang install
 
 brew cask install iterm2
@@ -59,3 +63,65 @@ echo Install Sophos Home: https://home.sophos.com/en-us.aspx
 echo Install OneDrive, Wunderlist, and StrongBox via the App Store
 echo
 echo iTerm Color Themes: https://iterm2colorschemes.com/
+
+# Previous Brew Formulae
+# ant
+# autoconf
+# bash-completion
+# c-ares
+# cmatrix
+# cowsay
+# fltk
+# fortune
+# freetype
+# gcc
+# gdb
+# gdbm
+# geckodriver
+# gettext
+# gflags
+# git
+# gmp
+# grpc
+# heroku
+# heroku-node
+# icu4c
+# imagemagick
+# isl
+# jpeg
+# kubernetes-cli
+# libidn2
+# libmpc
+# libpng
+# libtiff
+# libtool
+# libunistring
+# lz4
+# lzo
+# mpfr
+# neofetch
+# nmap
+# node
+# openssl
+# openvpn
+# p7zip
+# pandoc
+# pcre
+# pcre2
+# pkg-config
+# protobuf
+# python
+# python3
+# python@2
+# rbenv
+# readline
+# ruby-build
+# screenfetch
+# screenresolution
+# sqlite
+# tree
+# unrar
+# watchman
+# wget
+# xz
+# youtube-dl
