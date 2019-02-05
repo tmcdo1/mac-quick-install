@@ -12,7 +12,6 @@ brew install git
 brew install make
 brew install node
 brew install rbenv
-rbenv init
 brew install gcc
 
 # Add golang install
@@ -37,11 +36,26 @@ brew cask install robo-3t
 brew cask install drawio 
 brew cask install zeplin
 brew cask install iina
+brew cask install boxcryptor
 
 xcode-select --install
 
+# Bash
+echo "# Custom terminal" >> ~/.bash_profile
+echo "export DEFAULT_PS1='\h:\W \u$ '" >> ~/.bash_profile
+echo "export PS1='\[\033[00m\]\W \[\033[32m\]\u \[\033[1;36m\]∫ \[\033[00m\]'" >> ~/.bash_profile
+echo "" >> ~/.bash_profile
+echo "# Aliases" >> ~/.bash_profile
+echo "alias ls='ls -G'" >> ~/.bash_profile
+echo "" >> ~/.bash_profile
+echo "# rbenv setup" >> ~/.bash_profile
+echo "eval '\$(rbenv init -)'" >> ~/.bash_profile
+
 # Add gitconfig controls
+
 echo
 echo Install Office Suite: https://software.tamu.edu
 echo Install Sophos Home: https://home.sophos.com/en-us.aspx
 echo Install OneDrive, Wunderlist, and StrongBox via the App Store
+echo
+echo iTerm Color Themes: https://iterm2colorschemes.com/
