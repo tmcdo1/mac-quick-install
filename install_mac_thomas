@@ -26,7 +26,7 @@ brew cask install spectacle
 brew cask install transmission
 brew cask install docker
 brew cask install visual-studio-code
-brew cask install firefox-developer-edition
+brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install google-chrome
 brew cask install telegram
 brew cask install slack
