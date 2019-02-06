@@ -17,6 +17,7 @@ brew install gcc@8
 # Random programs
 brew install neofetch
 brew install youtube-dl
+brew install lolcat
 
 # Add golang install
 
@@ -38,11 +39,8 @@ brew cask install robo-3t
 
 # Double-check below
 brew cask install drawio 
-brew cask install zeplin
 brew cask install iina
 brew cask install boxcryptor
-
-xcode-select --install
 
 # Bash
 echo "clear" >> ~/.bash_profile
@@ -70,7 +68,8 @@ echo "artii --font slant 'Welcome' | lolcat" >> ~/.bash_profile
 echo
 echo Install Office Suite: https://software.tamu.edu
 echo Install Sophos Home: https://home.sophos.com/en-us.aspx
-echo Install OneDrive, Wunderlist, XCode, and StrongBox via the App Store
+echo Install OneDrive: https://onedrive.live.com/about/en-us/download/
+echo Install Wunderlist, XCode, and StrongBox via the App Store
 echo
 echo iTerm Color Themes: https://iterm2colorschemes.com/
 
