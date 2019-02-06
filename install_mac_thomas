@@ -52,6 +52,8 @@ echo "export PS1='\[\033[00m\]\W \[\033[32m\]\u \[\033[1;36m\]∫ \[\033[00m\]'"
 echo "" >> ~/.bash_profile
 echo "# Aliases" >> ~/.bash_profile
 echo "alias ls='ls -G'" >> ~/.bash_profile
+echo "alias python='python3'" >> ~/.bash_profile
+echo "alias pip='pip3'" >> ~/.bash_profile
 echo "" >> ~/.bash_profile
 echo "# rbenv setup" >> ~/.bash_profile
 echo 'eval "\$(rbenv init -)"' >> ~/.bash_profile
