@@ -12,7 +12,7 @@ brew install git
 brew install make
 brew install node
 brew install rbenv
-brew install gcc
+brew install gcc@8
 
 # Random programs
 brew install neofetch
@@ -54,6 +54,8 @@ echo "# Aliases" >> ~/.bash_profile
 echo "alias ls='ls -G'" >> ~/.bash_profile
 echo "alias python='python3'" >> ~/.bash_profile
 echo "alias pip='pip3'" >> ~/.bash_profile
+echo "alias gcc='gcc-8'" >> ~/.bash_profile
+echo "alias g++='g++-8'" >> ~/.bash_profile
 echo "" >> ~/.bash_profile
 echo "# rbenv setup" >> ~/.bash_profile
 echo 'eval "\$(rbenv init -)"' >> ~/.bash_profile
