@@ -45,6 +45,7 @@ brew cask install boxcryptor
 xcode-select --install
 
 # Bash
+echo "clear" >> ~/.bash_profile
 echo "# Custom terminal" >> ~/.bash_profile
 echo "export DEFAULT_PS1='\h:\W \u$ '" >> ~/.bash_profile
 echo "export PS1='\[\033[00m\]\W \[\033[32m\]\u \[\033[1;36m\]∫ \[\033[00m\]'" >> ~/.bash_profile
@@ -53,7 +54,12 @@ echo "# Aliases" >> ~/.bash_profile
 echo "alias ls='ls -G'" >> ~/.bash_profile
 echo "" >> ~/.bash_profile
 echo "# rbenv setup" >> ~/.bash_profile
-echo "eval '\$(rbenv init -)'" >> ~/.bash_profile
+echo 'eval "\$(rbenv init -)"' >> ~/.bash_profile
+
+sudo gem install artii
+
+echo "" >> ~/.bash_profile
+echo "artii --font slant 'Welcome' | lolcat" >> ~/.bash_profile
 
 # Add gitconfig controls
 
