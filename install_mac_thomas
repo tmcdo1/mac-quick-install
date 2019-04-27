@@ -10,7 +10,6 @@ pip3 install flask
 brew install node
 brew install git
 brew install make
-brew install node
 brew install rbenv
 brew install gcc@8
 
