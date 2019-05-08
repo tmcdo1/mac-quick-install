@@ -21,6 +21,7 @@ brew install cmatrix
 brew install neofetch
 brew install youtube-dl
 brew install lolcat
+brew install tealdeer
 
 # Add golang install
 
@@ -69,6 +70,10 @@ echo 'export GOROOT="$(brew --prefix golang)/libexec"' >> ~/.bash_profile
 echo 'export PATH="$PATH:${GOROOT}/bin"' >> ~/.bash_profile
 echo "" >> ~/.bash_profile
 brew install go
+
+# fish
+brew install fish
+echo "Configure iTerm to run fish as a profile"
 
 sudo gem install artii
 
