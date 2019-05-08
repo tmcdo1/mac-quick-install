@@ -73,6 +73,10 @@ brew install go
 
 # fish
 brew install fish
+curl -L https://get.oh-my.fish | fish
+omf update
+omf install integral
+
 echo "Configure iTerm to run fish as a profile"
 
 sudo gem install artii
