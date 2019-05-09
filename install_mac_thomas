@@ -71,11 +71,7 @@ echo 'export PATH="$PATH:${GOROOT}/bin"' >> ~/.bash_profile
 echo "" >> ~/.bash_profile
 brew install go
 
-# fish
-brew install fish
-curl -L https://get.oh-my.fish | fish
-omf update
-omf install integral
+
 
 echo "Configure iTerm to run fish as a profile"
 
@@ -83,6 +79,20 @@ sudo gem install artii
 
 echo "" >> ~/.bash_profile
 echo "artii --font slant 'Welcome' | lolcat" >> ~/.bash_profile
+
+# fish
+brew install fish
+curl -L https://get.oh-my.fish | fish
+omf update
+omf install integral
+omf install separation
+alias python python3
+funcsave python
+alias pip pip3
+funcsave pip
+alias g++ g++-8
+alias gcc gcc-8
+funcsave g++ gcc
 
 # Add gitconfig controls
 
