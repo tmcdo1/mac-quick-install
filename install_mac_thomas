@@ -43,6 +43,7 @@ brew cask install robo-3t
 brew cask install dash
 brew cask install cyberduck
 brew cask install macs-fan-control
+brew cask install simplenote
 
 # Double-check below
 brew cask install drawio 
