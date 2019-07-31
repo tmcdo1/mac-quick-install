@@ -13,6 +13,7 @@ brew install make
 brew install rbenv
 brew install gcc@8
 brew install grpc
+brew install wget
 
 # brew install geckodriver
 
