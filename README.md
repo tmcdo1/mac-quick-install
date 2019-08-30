@@ -22,12 +22,15 @@ Included installs:
 - Git
 - Visual Studio Code
 
-## WSL
+## Windows
 To install included tools, copy the following line:
 ```
-sudo curl -fsSL https://raw.githubusercontent.com/tmcdo1/quick-install/master/wsl.sh | /bin/bash
+https://raw.githubusercontent.com/tmcdo1/quick-install/master/install_windows.ps1
 ```
 
 Included installs:
 - Python 3
 - Git
+- Postman
+- Node.JS
+- VS Code
