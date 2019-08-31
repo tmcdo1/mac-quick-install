@@ -23,7 +23,7 @@ Included installs:
 - Visual Studio Code
 
 ## Windows
-To install included tools, copy the following line:
+To install included tools, copy the following line and execute in PowerShell:
 ```
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser; iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/tmcdo1/quick-install/master/install_windows.ps1')
 ```
