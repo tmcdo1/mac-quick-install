@@ -25,7 +25,7 @@ Included installs:
 ## Windows
 To install included tools, copy the following line:
 ```
-https://raw.githubusercontent.com/tmcdo1/quick-install/master/install_windows.ps1
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser; iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/tmcdo1/quick-install/master/install_windows.ps1')
 ```
 
 Included installs:
