@@ -44,12 +44,13 @@ brew cask install robo-3t
 brew cask install dash
 brew cask install cyberduck
 brew cask install macs-fan-control
-brew cask install simplenote
-
-# Double-check below
+brew cask install standard-notes
 brew cask install drawio 
 brew cask install iina
 brew cask install boxcryptor
+
+# remove when transitioned
+brew cask install simplenote 
 
 # Bash
 echo "clear" >> ~/.bash_profile
@@ -102,6 +103,6 @@ echo
 echo Install Office Suite: https://software.tamu.edu
 echo Install Sophos Home: https://home.sophos.com/en-us.aspx
 echo Install OneDrive: https://onedrive.live.com/about/en-us/download/
-echo Install Wunderlist, XCode, and StrongBox via the App Store
+echo Install Microsoft To Do, XCode, and StrongBox via the App Store
 echo
 echo iTerm Color Themes: https://iterm2colorschemes.com/
