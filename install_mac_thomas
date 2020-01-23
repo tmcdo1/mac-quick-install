@@ -27,7 +27,6 @@ brew install tealdeer
 # Add golang install
 
 brew cask install iterm2
-brew cask install macdown
 brew cask install spectacle
 brew cask install transmission
 brew cask install docker
@@ -48,6 +47,8 @@ brew cask install standard-notes
 brew cask install drawio 
 brew cask install iina
 brew cask install boxcryptor
+brew cask install notable
+brew cask install notion
 
 # remove when transitioned
 brew cask install simplenote 
